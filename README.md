@@ -10,8 +10,8 @@
   permitindo acompanhar valores como <b>tensão (V)</b>, <b>corrente (A)</b>, <b>potência (W)</b> e outros indicadores importantes.
 </p>
 
-<h3 align="left">Linguagens Utilizadas</h3>
-<p align="left"> 
+<h3 align="center">Linguagens Utilizadas</h3>
+<p align="center"> 
   <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> 
     <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> 
   </a> 
