@@ -1,0 +1,150 @@
+/* reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+
+/* fundo */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+/* caixa */
+.login {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* topo */
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top h1 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.top p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* título */
+main h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* label */
+label {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* input */
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+  border: 1px solid #38bdf8;
+}
+
+/* final */
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.check {
+  display: flex;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.check input {
+  accent-color: #38bdf8;
+}
+
+/* link */
+.link {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* botão */
+.btn {
+  margin-top: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* responsivo */
+@media (max-width: 420px) {
+  .login {
+    padding: 22px;
+  }
+
+  .top h1 {
+    font-size: 20px;
+  }
+}

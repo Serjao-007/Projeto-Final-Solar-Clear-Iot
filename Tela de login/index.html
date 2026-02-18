@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar Clear IoT - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="login">
+      <header class="top">
+        <h1>Solar Clear IoT</h1>
+        <p>Energia limpa e renovável com tecnologia inteligente.</p>
+      </header>
+
+      <main>
+        <h2>LOGIN</h2>
+
+        <form id="loginForm">
+          <label for="email">E-mail</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
+
+          <label for="senha">Senha</label>
+          <input
+            id="senha"
+            type="password"
+            placeholder="Digite sua senha"
+            required
+          />
+
+          <div class="final">
+            <label class="check">
+              <input type="checkbox" id="mostrarSenha" />
+              <span>Mostrar senha</span>
+            </label>
+
+            <a href="#" class="link">Esqueci minha senha</a>
+          </div>
+
+          <button class="btn" type="submit">Entrar</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
